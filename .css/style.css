@@ -5,12 +5,6 @@
  ====================================*/
 
 
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
-
 html,
 body {
 	height: 100%;
@@ -56,7 +50,7 @@ h6 {
 
 p {
 	font-size: 15px;
-	color: #585858;
+	color: #ffffff;
 	line-height: 1.6;
 	font-weight: 500;
 }
@@ -324,10 +318,12 @@ ol {
 .geme-social-share a:hover {
 	background: #b01ba5;
 }
-
+/*
+	这里是上方标题栏的代码- ↓ -
+*/
 .header-bar-warp {
-	background: #081624;
-	padding: 39px 40px 0;
+	background: #081624af;
+	padding: 40px 40px 0;
 	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 }
@@ -414,7 +410,7 @@ ol {
 }
 
 .main-menu li:hover>a:after {
-	background-image: url("../img/icons/arrow-down-color.png");
+	background-image: url("../img/icons/ar row-down-color.png");
 }
 
 .main-menu li .sub-menu {
@@ -610,7 +606,14 @@ ol {
 .text-box p {
 	font-size: 15px;
 	font-weight: 500;
-	color: #68647d;
+	color: #ffffffdb;
+	margin-bottom: 35px;
+}
+
+.textp p {
+	font-size: 15px;
+	font-weight: 500;
+	color: #000000a2;
 	margin-bottom: 35px;
 }
 
@@ -631,18 +634,15 @@ ol {
 ---------------------*/
 
 .blog-section {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
-	background: #501755;
-	/* Old browsers */
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#55115b+0,2b125a+100 */
+	background: rgb(85,17,91); 
+	background: -moz-linear-gradient(top,  rgba(85,17,91,1) 0%, rgba(43,18,90,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(85,17,91,1) 0%,rgba(43,18,90,1) 100%);
+	background: linear-gradient(to bottom,  rgba(85,17,91,1) 0%,rgba(43,18,90,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55115b', endColorstr='#2b125a',GradientType=0 );
+
 }
+
 
 .blog-section .section-title {
 	margin-bottom: 25px;
