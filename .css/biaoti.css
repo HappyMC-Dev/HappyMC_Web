@@ -26,8 +26,10 @@
 	color: #fff;
 	text-align: center;
 	text-shadow: 3px -1px 5px #ff641a, -2px 3px 5px #007eff;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
+
+section.site-config {}
 
 body {
 	position: relative;
@@ -36,14 +38,14 @@ body {
 	font-size: 15px;
 	line-height: 2;
 	color: #fff;
-	background: #efefef;
+	background: #dfdfdf;
 	margin: 0
 }
 
 ::-webkit-scrollbar {
 	height: 6px;
 	width: 8px;
-	background-color: #fff
+	background-color: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
