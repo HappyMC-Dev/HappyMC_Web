@@ -58,7 +58,7 @@ hgroup,
 main,
 nav,
 section {
-    display: block
+    display: block;
 }
 
 body {
@@ -69,7 +69,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: rgb(0 0 0);
 }
 
 [tabindex="-1"]:focus {
@@ -94,7 +94,8 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
 }
 
 abbr[data-original-title],
