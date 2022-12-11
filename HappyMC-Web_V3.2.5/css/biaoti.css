@@ -1,0 +1,57 @@
+/* =====================================
+    HAPPY MC - Dev
+   ===================================== */
+@font-face {
+	font-family:mnjzy;src:url(../font/mnjzy.woff2) format("woff2")
+}
+
+.site-config {
+	line-height: 1;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(64,179,236,.1);
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+	text-shadow: 3px -1px 5px #ff641a, -2px 3px 5px #007eff;
+	letter-spacing: 1px
+}
+
+section.site-config {}
+
+body {
+	position: relative;
+	font-family: 'Comfortaa','mnjzy',system,-apple-system,BlinkMacSystemFont,'PingFang SC',Arial,'Microsoft YaHei',Lato,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 15px;
+	line-height: 2;
+	color: #fff;
+	background: #dfdfdf;
+	margin: 0
+}
+
+::-webkit-scrollbar {
+	height: 6px;
+	width: 8px;
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ccc
+}
+
+::selection {
+	background: rgba(0,149,255,.2)
+}
